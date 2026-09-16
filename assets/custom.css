@@ -1,0 +1,15 @@
+@reference './app.css';
+
+/* Make the article column wider than Paper's default 680px content width. */
+:root {
+  --w: calc(1200px + 32px * 2) !important;
+}
+
+/* Paper's prose class has its own max-width; let the article use --w. */
+main.prose {
+  max-width: var(--w);
+}
+
+main.prose > article {
+  max-width: none;
+}

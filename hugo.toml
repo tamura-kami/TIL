@@ -2,4 +2,13 @@ baseURL = 'https://tamura-kami.github.io/TIL/'
 languageCode = 'ja-jp'
 title = 'TIL'
 
-theme = 'adam-eve'
+theme = 'paper'
+
+[params]
+color = 'linen'
+github = 'tamura-kami'
+rss = true
+name = 'TIL'
+bio = '技術的な問題解決と学びの記録'
+disablePostNavigation = true
+monoDarkIcon = true
