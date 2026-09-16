@@ -1,3 +1,5 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://tamura-kami.github.io/TIL/'
+languageCode = 'ja-jp'
+title = 'TIL'
+
+theme = 'hugo-clarity'
